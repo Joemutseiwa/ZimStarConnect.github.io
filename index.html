@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZimStar Mobile Networks</title>
+  <meta name="description" content="ZimStar Mobile Networks is a Starlink reseller and connectivity solutions provider supplying Starlink kits, WiFi hotspot systems, and network expansion solutions across Zimbabwe and beyond.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+    }
+    .hero {
+      background: #008080;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .content {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #ff6600;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    input[type="text"],
+    input[type="tel"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ZimStar Mobile Networks</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#starlink">Order Starlink</a>
+      <a href="#routers">Extension Routers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Official Starlink Reseller & Connectivity Solutions Provider</h2>
+    <p>We supply Starlink kits, deploy WiFi hotspot systems, and expand networks for homes, businesses, and communities.</p>
+  </section>
+
+  <section class="content" id="about">
+    <h2>About ZimStar Mobile Networks</h2>
+    <p>ZimStar Mobile Networks is a Zimbabwe-based connectivity solutions provider specializing in Starlink internet services. We support residential, commercial, and community deployments with reliable hardware supply, network expansion, and monetized WiFi systems.</p>
+  </section>
+
+  <section class="content" id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Authorized Supply of Starlink Kits</li>
+      <li>WiFi Hotspot Systems with User Billing</li>
+      <li>Extension Routers & Mesh Network Deployment</li>
+      <li>Connectivity Consulting for Businesses & Institutions</li>
+    </ul>
+  </section>
+
+  <section class="content" id="starlink">
+    <h2>Order Starlink Kits</h2>
+    <p>Looking to get connected with reliable high-speed internet anywhere in the world? We offer official Starlink Kits for both personal and business use.</p>
+    <ul>
+      <li>Standard Residential Kits</li>
+      <li>Business & Maritime Kits</li>
+      <li>Rural and Remote Area Delivery</li>
+    </ul>
+    <p>To place an order, contact us. We process and ship orders globally with 24/7 support.</p>
+  </section>
+
+  <section class="content" id="routers">
+    <h2>Extension Routers</h2>
+    <p>Need to expand your Wi-Fi coverage? We supply high-quality extension routers compatible with Starlink and other networks.</p>
+    <ul>
+      <li>Dual-Band and Tri-Band Routers</li>
+      <li>Mesh Wi-Fi Systems for Large Homes and Offices</li>
+      <li>Plug-and-Play Range Extenders</li>
+    </ul>
+    <p>Enhance your connectivity with our top-rated routers. Contact us for recommendations and availability.</p>
+  </section>
+
+  <section class="content" id="hotspot">
+    <h2>WiFi Hotspot System Setup</h2>
+    <p>We provide complete WiFi hotspot systems that allow you to share internet access and bill users accordingly. Ideal for shops, hostels, schools, neighborhoods, and businesses.</p>
+    <ul>
+      <li>Hotspot gateway & access point configuration</li>
+      <li>User login & token-based billing</li>
+      <li>Scalable for small or large areas</li>
+    </ul>
+    <p>Contact us for assessment, setup, and pricing.</p>
+  </section>
+
+  <section class="content" id="referral">
+    <h2>Refer a Customer for Starlink Kits</h2>
+    <p>Know someone who needs a Starlink kit? Submit their details and the referral will be sent instantly to our WhatsApp sales team.</p>
+    <form onsubmit="sendWhatsAppReferral(); return false;">
+      <label>Referrer Name:</label><br>
+      <input id="referrer" type="text" placeholder="Your full name" required><br>
+      <label>Customer Name:</label><br>
+      <input id="customer" type="text" placeholder="Customer full name" required><br>
+      <label>Customer Phone Number:</label><br>
+      <input id="phone" type="tel" placeholder="e.g. +2637XXXXXXXX" required><br>
+      <button type="submit" class="btn">Send via WhatsApp</button>
+    </form>
+  </section>
+
+  <section class="content" id="why">
+    <h2>Why Choose ZimStar Mobile Networks</h2>
+    <ul>
+      <li><strong>Starlink-Focused Expertise</strong> – Dedicated to Starlink-based internet solutions.</li>
+      <li><strong>Revenue-Ready Systems</strong> – Hotspot solutions designed for monetization.</li>
+      <li><strong>Scalable Deployments</strong> – From single homes to large community networks.</li>
+      <li><strong>Local Accountability</strong> – Zimbabwe-based support with fast response.</li>
+      <li><strong>Professional Operations</strong> – Clear processes, documentation, and partner-ready systems.</li>
+    </ul>
+  </section>
+
+  <section class="content" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@conveniencestore247.com</p>
+    <p>Phone: +263774899983</p>
+    <p>Location: Global operations with 24/7 access online</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ZimStar Mobile Networks. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function sendWhatsAppReferral() {
+      var referrer = document.getElementById('referrer').value;
+      var customer = document.getElementById('customer').value;
+      var phone = document.getElementById('phone').value;
+
+      var message = `Starlink Referral%0AReferrer: ${referrer}%0ACustomer Name: ${customer}%0ACustomer Phone: ${phone}`;
+      var whatsappUrl = `https://wa.me/263774899983?text=${message}`;
+      window.open(whatsappUrl, '_blank');
+    }
+  </script>
+</body>
+</html>
