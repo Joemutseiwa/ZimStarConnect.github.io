@@ -1,2 +1,1 @@
-# ZimStarConnect.github.io
-Online platform 
+# ZimStar Mobile Networks Website
